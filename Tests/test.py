@@ -1,11 +1,4 @@
-import sys
-import os
-
-a = os.getcwd()
-pat = '/'.join(a.split('/')[:-1])
-sys.path.append(pat)
-from CloudBoost import cloudboost
-
+#Temp file
 obj = cloudboost.CloudApp(
     "anuchdiujlug", "ff59f960-5982-479c-81dc-e3b1f7856a96")
 
